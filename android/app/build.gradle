@@ -80,6 +80,7 @@ android {
     namespace "com.mynewscientificcalculator"
     defaultConfig {
         applicationId "com.mynewscientificcalculator"
+        resValue "string", "app_name", "Simpol Calci"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
